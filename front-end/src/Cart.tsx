@@ -1,4 +1,4 @@
-import { useContext, useEffect, useMemo } from "react"
+import { useContext, useEffect } from "react"
 import { Button, Container } from "react-bootstrap"
 import { CartContext } from "./CartContext";
 import useAxios from "axios-hooks";
@@ -59,6 +59,7 @@ export const Cart: React.FC = () => {
       <div>
         {loading && "Loading..."}
         {data.map((c: number) => <RecommendedItem key={c} classNum={c} />)}
+        {!loading && data.length === 0 && <p>Sorry, we couldn't find any recommended courses</p>}
       </div>
     </Container>
   )

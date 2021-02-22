@@ -10,7 +10,6 @@ def api_create_order():
     elif request.method == "POST":
         my_classes = [str(c) for c in request.json['in_cart']]
         result = run_model(my_classes) if len(my_classes) > 0 else []
-        print(result)
         return _cors_actual_response(jsonify(result))
 
 def _build_cors_prelight_response():

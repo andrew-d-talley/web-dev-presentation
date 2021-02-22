@@ -35,8 +35,6 @@ def run_model(classes):
       results[index] *= distance
 
   values = sorted(results.items(), key=lambda k: k[1])
-  print(values)
-  print(df.columns)
 
   return [df.columns[ind] for ind, dist in values if dist < 1 and df.columns[ind] not in classes]
 
