@@ -1,0 +1,87 @@
+[
+  {
+    "title": "Beauty and Joy of Computing",
+    "catalogNum": 1000,
+    "description": "Fundamental concepts of computing including abstraction, algorithms, design, and distributed computation. Hands-on curriculum focusing on translating ideas into working computer programs and developing a mastery of practical computational literacy. The relevance and societal impact of computer science are emphasized. Students in the School of Engineering may only receive open elective credit for CS 1000. FALL, SPRING. [3]"
+  },
+  {
+    "title": "Programming and Problem Solving",
+    "catalogNum": 1101,
+    "description": "An intensive introduction to algorithm development and problem solving on the computer. Structured problem definition, top down and modular algorithm design. Running, debugging, and testing programs. Program documentation. Not open to students who have earned credit for CS 1104 without permission. Total credit for this course and CS 1104 will not exceed 3 credit hours. Credit hours reduced from second course taken (or from test or transfer credit) as appropriate. FALL, SPRING. [3]"
+  },
+  {
+    "title": "Computers and Ethics",
+    "catalogNum": 1151,
+    "description": "Analysis and discussion of problems created for society by computers, and how these problems pose ethical dilemmas to both computer professionals and computer users. Topics include: computer crime, viruses, software theft, ethical implications of life-critical systems. FALL, SPRING. [3]"
+  },
+  {
+    "title": "Program Design & Data Structures",
+    "catalogNum": 2201,
+    "description": "Continuation of CS 1101. The study of elementary data structures, their associated algorithms and their application in problems; rigorous development of programming techniques and style; design and implementation of programs with multiple modules, using good data structures and good programming style."
+  },
+  {
+    "title": "Discrete Structures",
+    "catalogNum": 2212,
+    "description": "Survey of the mathematical tools necessary for an understanding of computer science. Sets, relations, functions, basic counting techniques, permutations, combinations, graphs, recurrence relations, simple analysis of algorithms, O-notation, Boolean algebra, propositional calculus, and numeric representation. Prerequisite: A course in computer science or two semesters of calculus. FALL, SPRING. [3] "
+  },
+  {
+    "title": "Computer Organization",
+    "catalogNum": 2231,
+    "description": "The entire hierarchical structure of computer architecture, beginning at the lowest level with a simple machine model (e.g., a simple von Neumann machine). Processors, process handling, IO handling, and assembler concepts. Graduate credit not given for computer science majors. Prerequisite: CS 2201. Corequisite: EECE 2116, EECE 2116L. FALL, SPRING. [3]"
+  },
+  {
+    "title": "Algorithms",
+    "catalogNum": 3250,
+    "description": "Advanced data structures, systematic study and analysis of important algorithms for searching; sorting; string processing; mathematical, geometrical, and graph algorithms, classes of P and NP, NP-complete and intractable problems. Prerequisite: CS 2201, CS 2212. FALL, SPRING. [3] "
+  },
+  {
+    "title": "Intermediate Software Design",
+    "catalogNum": 3251,
+    "description": "High quality development and reuse of architectural patterns, design patterns, and software components. Theoretical and practical aspects of developing, documenting, testing, and applying reusable class libraries and object-oriented frameworks using object-oriented and component-based programming languages and tools. Prerequisite: CS 2201. FALL, SPRING"
+  },
+  {
+    "title": "Concurrent Object-Oriented Programming",
+    "catalogNum": 3254,
+    "description": "Conceptual and practical aspects of designing, implementing, and debugging concurrent software programs using object-oriented programming language features and frameworks. Systematic reuse of scalable and robust software patterns and architectures for concurrent programs. SPRING. [3]"
+  },
+  {
+    "title": "Introduction to Computer Graphics",
+    "catalogNum": 3258,
+    "description": "2D rendering and image-based techniques, 2D and 3D transformations, modeling, 3D rendering, graphics pipeline, ray-tracing, and texturemapping. Prerequisite: MATH 2400, 2410, 2501 or 2600; CS 3251. SPRING."
+  },
+  {
+    "title": "Database Management Systems",
+    "catalogNum": 3265,
+    "description": "Logical and physical organization of databases. Data models and query languages, with emphasis on the relational model and its semantics. Data independence, security, integrity, concurrency."
+  },
+  {
+    "title": "Programming Languages",
+    "catalogNum": 3270,
+    "description": "General criteria for design, implementation, and evaluation of programming languages. Historical perspective. Syntactic and semantic specification, compilations, and interpretation processes. Comparative studies of data types and data control, procedures and parameters, sequence control, nesting, scope and storage management, run-time representations. Problem solving using non-standard languages. Prerequisite: CS 2201, CS2231 or EECE 2123. FALL, SPRING."
+  },
+  {
+    "title": "Modeling and Simulation",
+    "catalogNum": 3274,
+    "description": "General theory of modeling and simulation of a variety of systems: physical processes, computer systems, biological systems, and manufacturing processes. Principles of discrete-event, continuous, and hybrid system modeling, simulation algorithms for the different modeling paradigms, methodologies for constructing models of a number of realistic systems, and analysis of system behavior. Computational issues in modeling and analysis of systems. Stochastic simulations. Prerequisite: CS 2201."
+  },
+  {
+    "title": "Web-based System Architecture",
+    "catalogNum": 4288,
+    "description": "Core concepts necessary to architect, build, test, and deploy complex web-based systems; analysis of key domain requirements in security, robustness, performance, and scalability."
+  },
+  {
+    "title": "Web Dev Projects",
+    "catalogNum": 3892,
+    "description": "Fulfills project course requirement in CS major."
+  },
+  {
+    "title": "Artificial Intelligence",
+    "catalogNum": 4260,
+    "description": "Principles and programming techniques of artificial intelligence. Strategies for searching, representation of knowledge and automatic deduction, learning, and adaptive systems. Survey of applications. Prerequisite: CS 3250, CS 3251; MATH 2810 or 2820 or 3640. FALL."
+  },
+  {
+    "title": "Project in Artificial Intelligence",
+    "catalogNum": 4269,
+    "description": "Students work in small groups on the specification, design, implementation, and testing of a sizeable AI software project. Projects (e.g., an \"intelligent\" game player) require that students address a variety of AI subject areas, notably heuristic search, uncertain reasoning, planning, knowledge representation, and learning. Class discussion highlights student progress, elaborates topics under investigation, and identifies other relevant topics (e.g., vision) that the project does not explore in depth. Prerequisite: CS 4260. SPRING. [3]"
+  }
+]
