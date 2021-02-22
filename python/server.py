@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify, make_response
+from train_model import run_model
 
 app = Flask(__name__)
 
@@ -7,8 +8,10 @@ def api_create_order():
     if request.method == "OPTIONS": # CORS preflight
         return _build_cors_prelight_response()
     elif request.method == "POST":
-        print(request.json['in_cart'])
-        return _cors_actual_response(jsonify([1101]))
+        my_classes = [str(c) for c in request.json['in_cart']]
+        result = run_model(my_classes) if len(my_classes) > 0 else []
+        print(result)
+        return _cors_actual_response(jsonify(result))
 
 def _build_cors_prelight_response():
     response = make_response()

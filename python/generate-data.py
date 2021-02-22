@@ -21,7 +21,7 @@ reqs = {
   3892: [4288]
 }
 
-num_classes = [1, 1, 2, 2, 2, 2, 3, 3]
+num_classes = [1, 2, 2, 2, 2, 2, 3, 2]
 
 inverse_reqs = defaultdict(list)
 for c, pre_reqs in reqs.items():
